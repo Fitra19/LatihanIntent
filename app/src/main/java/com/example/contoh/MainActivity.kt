@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         when(p0.id ){
             R.id.btnActivityData -> run{
                 val pindahIntentData = Intent(this@MainActivity,PindahActivityData::class.java)
-                pindahIntentData.putExtra(PindahActivityData.EXTRA_TEXT,"Ayo Belajar Kotlin Menyenangkan loh")
+                pindahIntentData.putExtra(PindahActivityData.EXTRA_TEXT,"Ayo Belajar Kotlin")
                 startActivity(pindahIntentData)
             }
             R.id.btnActivity -> run{
@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             }
             R.id.btnActivityObjek -> run{
                 val Cars = Mobil(
-                    "Kijang Inova Reborn",
+                    "Toyota Yaris",
                     2023,
                     "BM 2023 SAR"
 
